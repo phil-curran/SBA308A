@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+}
+
+header {
+  grid-row: 1 / 2;
+}
+footer {
+  grid-row: 3 / 4;
+}
+header,
+footer {
+  background-color: #353b48;
+  text-align: center;
+}
