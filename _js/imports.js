@@ -1,4 +1,4 @@
-import gapi from "./api.js";
+import "https://apis.google.com/js/api.js/";
 
 /**
  * Sample JavaScript code for youtube.playlistItems.insert
@@ -107,19 +107,6 @@ async function alertResponse(response) {
 let authBtn = document.getElementById("auth");
 authBtn.addEventListener("click", authenticate().then(loadClient));
 
-let execBtn = document.getElementById("exec");
-execBtn.addEventListener("click", execute);
-
 onclick = "authenticate().then(loadClient)";
 
 testRequest();
-
-async function getYTData() {
-  const response = await fetch(
-    "https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=25&playlistId=PLD5kU-aj1V_CqjEVo7gxSUR7dImHI94RR&key=AIzaSyCtwPR1kRopAoGgWv7mM0sA9XFl3LjRQ9U"
-  );
-  const jsonData = await response.json();
-  console.log(jsonData);
-}
-
-getYTData();

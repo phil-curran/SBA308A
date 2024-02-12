@@ -1,0 +1,34 @@
+yt playlist: PLD5kU-aj1V_CqjEVo7gxSUR7dImHI94RR
+
+
+PiB9jKjqDG8
+
+SBA308A api key google: AIzaSyCtwPR1kRopAoGgWv7mM0sA9XFl3LjRQ9U
+
+insert playlist item:
+https://developers.google.com/youtube/v3/code_samples/code_snippets?apix_params=%7B%22part%22%3A%5B%22snippet%22%5D%2C%22resource%22%3A%7B%22snippet%22%3A%7B%22playlistId%22%3A%22YOUR_PLAYLIST_ID%22%2C%22position%22%3A0%2C%22resourceId%22%3A%7B%22kind%22%3A%22youtube%23video%22%2C%22videoId%22%3A%22M7FIvfx5J10%22%7D%7D%7D%7D
+
+list playlist items:
+https://developers.google.com/youtube/v3/code_samples/code_snippets?apix_params=%7B%22part%22%3A%5B%22snippet%22%5D%2C%22resource%22%3A%7B%22snippet%22%3A%7B%22playlistId%22%3A%22YOUR_PLAYLIST_ID%22%2C%22position%22%3A0%2C%22resourceId%22%3A%7B%22kind%22%3A%22youtube%23video%22%2C%22videoId%22%3A%22M7FIvfx5J10%22%7D%7D%7D%7D
+
+delete playlist item:
+https://developers.google.com/youtube/v3/code_samples/code_snippets?apix_params=%7B%22part%22%3A%5B%22snippet%22%5D%2C%22resource%22%3A%7B%22snippet%22%3A%7B%22playlistId%22%3A%22YOUR_PLAYLIST_ID%22%2C%22position%22%3A0%2C%22resourceId%22%3A%7B%22kind%22%3A%22youtube%23video%22%2C%22videoId%22%3A%22M7FIvfx5J10%22%7D%7D%7D%7D
+
+OAuth client created
+The client ID and secret can always be accessed from Credentials in APIs & Services
+
+OAuth access is restricted to the test users  listed on your OAuth consent screen
+Client ID
+531413372347-d537hdfl72fn2870ouvjlu6njqupii9b.apps.googleusercontent.com
+Client secret
+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
+Creation date
+February 11, 2024 at 2:13:02 PM GMT-8
+Status
+ Enabled
+
+
+GET https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=25&playlistId=PLD5kU-aj1V_CqjEVo7gxSUR7dImHI94RR&key=AIzaSyCtwPR1kRopAoGgWv7mM0sA9XFl3LjRQ9U
+
+Authorization: Bearer [YOUR_ACCESS_TOKEN]
+Accept: application/json
