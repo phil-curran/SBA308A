@@ -6,7 +6,15 @@ body {
 
 header {
   grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+header h1 {
+  margin: 0 auto;
+}
+
 footer {
   grid-row: 3 / 4;
 }
@@ -14,4 +22,47 @@ header,
 footer {
   background-color: #353b48;
   text-align: center;
+}
+
+/* 1 */
+@media screen and (min-width: 576px) {
+  article {
+    margin: 16px 0;
+    display: block;
+    flex-direction: row;
+  }
+}
+
+/* 1 */
+@media screen and (min-width: 768px) {
+  article {
+    width: 48%;
+    margin: 5px;
+    display: inline-block;
+    flex-direction: row;
+  }
+}
+
+/* 3 */
+@media screen and (min-width: 960px) {
+}
+
+/* 4 */
+@media screen and (min-width: 1024px) {
+  article {
+    width: 31%;
+    margin: 5px;
+    display: inline-block;
+    flex-direction: row;
+  }
+}
+
+/* 5 */
+@media screen and (min-width: 1280px) {
+  article {
+    width: 23%;
+    margin: 5px;
+    display: inline-block;
+    flex-direction: row;
+  }
 }
