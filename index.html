@@ -14,19 +14,23 @@
   <body>
     <header>Header</header>
     <main class="container">
-      <section id="group">
+      <section id="input">
         <h2>Get Weather:</h2>
-        <form>
+        <form id="form">
           <fieldset role="group">
             <input
               name="zipCode"
               type="number"
+              id="zipCode"
               placeholder="Enter your zip code"
             />
             <input type="submit" value="Get Weather" />
           </fieldset>
         </form>
       </section>
+      <section id="output">
+        <h2>Weather:</h2>
+        <div id="weather"></div>
     </main>
     <footer>Footer</footer>
     <script type="module" src="./index.js"></script>
