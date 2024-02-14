@@ -24,6 +24,19 @@ footer {
   text-align: center;
 }
 
+article > * {
+  text-align: center;
+}
+
+i {
+  font-size: 5em;
+  text-align: center;
+}
+
+/* .hidden {
+  display: none;
+} */
+
 /* 1 */
 @media screen and (min-width: 576px) {
   article {
